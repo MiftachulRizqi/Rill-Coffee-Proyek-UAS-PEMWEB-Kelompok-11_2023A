@@ -19,7 +19,6 @@ Rill Coffee adalah sebuah aplikasi pemesanan minuman kopi yang memudahkan pelang
 1. Clone repository ini ke komputer kamu:
 
 git clone https://github.com/Ilhamgty/RillCoffee.git
-
 👨‍💻 Developer
 Moch.Ilham Mushidiq (Frontend).
 Miftachul Rizqi (Backend).
