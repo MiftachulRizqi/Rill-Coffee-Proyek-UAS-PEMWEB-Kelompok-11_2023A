@@ -28,7 +28,7 @@
 
 1. Clone repository ini ke komputer kamu:
 ```bash
-git clone https://github.com/Ilhamgty/RillCoffee.git
+https://github.com/MiftachulRizqi/Rill-Coffee-Proyek-UAS-PEMWEB-Kelompok-11_2023A.git
 
 👨‍💻 Developer
 Moch.Ilham Mushidiq – Frontend.
