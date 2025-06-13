@@ -1,7 +1,11 @@
-☕ Rill Coffee
-Rill Coffee adalah sebuah aplikasi pemesanan minuman kopi yang memudahkan pelanggan dalam memilih menu, mengisi data pemesanan, dan melihat detail transaksi. Aplikasi ini dikembangkan menggunakan HTML, CSS, dan JavaScript dengan framework laravel 10 dan bootstrap 5, dan dirancang dengan tampilan klasik dan elegan.
+# ☕ Rill Coffee
 
-📋 Fitur Utama
+**Rill Coffee** adalah sebuah aplikasi pemesanan minuman kopi yang memudahkan pelanggan dalam memilih menu, mengisi data pemesanan, dan melihat detail transaksi. Aplikasi ini dikembangkan menggunakan **HTML, CSS, dan JavaScript dengan framework laravel 10 dan bootstrap 5**, dan dirancang dengan tampilan klasik dan elegan.
+
+---
+
+## 📋 Fitur Utama
+
 - Form pemesanan yang interaktif
 - Pemilihan menu minuman yang beragam
 - Perhitungan otomatis total harga berdasarkan jumlah pesanan
@@ -9,20 +13,27 @@ Rill Coffee adalah sebuah aplikasi pemesanan minuman kopi yang memudahkan pelang
 - Animasi counter dan efek navbar saat scroll
 - Dashboard admin
 
-🛠️ Teknologi yang Digunakan
+---
+
+## 🛠️ Teknologi yang Digunakan
+
 - HTML5
 - CSS3 (dengan Bootstrap 5)
 - JavaScript
 - Laravel 10
 
-🚀 Cara Menjalankan
-1. Clone repository ini ke komputer kamu:
+---
 
+## 🚀 Cara Menjalankan
+
+1. Clone repository ini ke komputer kamu:
+```bash
 git clone https://github.com/Ilhamgty/RillCoffee.git
+
 👨‍💻 Developer
-Moch.Ilham Mushidiq (Frontend).
-Miftachul Rizqi (Backend).
-M. Firman Nur W (UI/UX Design)
+Moch.Ilham Mushidiq – Frontend.
+Miftachul Rizqi - Backend.
+M. Firman Nur W - UI/UX Design.
 
 📄 Lisensi
 Project ini dibuat untuk keperluan pembelajaran dan pengembangan pribadi.
