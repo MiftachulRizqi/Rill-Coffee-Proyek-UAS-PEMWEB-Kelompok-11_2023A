@@ -1,0 +1,78 @@
+.order-container {
+    max-width: 550px;
+    margin: 5rem auto;
+    padding: 2.5rem;
+    background-color: #fff4e6;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid #d4a373;
+}
+
+.order-container h2 {
+    font-size: 2rem;
+    color: #3c2f2f;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.1rem;
+    color: #3c2f2f;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #d4a373;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #8B4513;
+}
+
+.error {
+    color: #e63946;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+
+.order-container p {
+    font-size: 1.2rem;
+    color: #3c2f2f;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: #8B4513;
+    color: #fff4e6;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;             /* Tambahan agar selebar input alamat */
+    display: block;          /* Agar lebarnya maksimal */
+    margin-top: 1rem;        /* Tambahan opsional untuk jarak dari atas */
+}
+
+.btn:hover {
+    background-color: #A0522D;
+}

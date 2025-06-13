@@ -1,0 +1,122 @@
+.admin-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.admin-section h2 {
+    font-size: 2.5rem;
+    color: #3c2f2f;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.admin-section h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #d4a373;
+    margin: 0.5rem auto;
+    border-radius: 2px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+table:hover {
+    transform: translateY(-2px);
+}
+
+th, td {
+    padding: 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid #d4a373;
+    transition: background-color 0.3s ease;
+}
+
+th {
+    background-color: #3c2f2f;
+    color: #fff4e6;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+td {
+    font-size: 1rem;
+    color: #5a3d2b;
+}
+
+tr:hover td {
+    background-color: #f9f1e7;
+}
+
+.btn.small {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: #3c2f2f;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn.small.primary {
+    background-color: #d4a373;
+}
+
+.btn.small.primary:hover {
+    background-color: #8B4513;
+    color: #fff4e6;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn.small.danger {
+    background-color: #8B4513;
+    color: #fff4e6;
+}
+
+.btn.small.danger:hover {
+    background-color: #ff0000;
+    box-shadow: 0 4px 10px rgba(45, 29, 29, 0.785);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.action-buttons .btn {
+    margin: 0;
+}
+
+.status-label {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #3c2f2f; /* Teks coklat tua agar tidak kontras */
+}
+
+.status-label.confirmed {
+    background-color: #28a745;
+}
+
+.status-label.cancelled {
+    background-color: #e74c3c;
+}

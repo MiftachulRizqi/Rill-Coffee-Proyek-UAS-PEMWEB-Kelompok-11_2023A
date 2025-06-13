@@ -1,0 +1,48 @@
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.dashboard h2 {
+    font-size: 2.5rem;
+    color: #2c1b0f;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.stat-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 2px solid #d4a373;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card h3 {
+    font-size: 1.5rem;
+    color: #2c1b0f;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.stat-card p {
+    font-size: 2rem;
+    color: #8B4513;
+    font-weight: 700;
+}
